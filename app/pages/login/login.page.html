@@ -1,0 +1,52 @@
+
+<ion-header >
+  <ion-toolbar>
+   <ion-buttons slot="start" >
+    <ion-back-button defaultHref="/"
+     text="back"
+     color="success" 
+     name="arrow-undo-outline"></ion-back-button>
+   </ion-buttons>
+   <ion-title>RegistrAPP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="loginForm" (ngSubmit)="login()">
+    <ion-item>
+      <ion-label position="floating">nombre</ion-label>
+      <ion-input type="text" formControlName="nombre"></ion-input>
+    </ion-item>
+
+
+    <div *ngIf="loginForm.get('nombre')?.invalid && (loginForm.get('nombre')?.dirty || loginForm.get('nombre')?.touched)">
+      <div style="color:red" *ngIf="loginForm.get('nombre')?.hasError('required')">
+        *nombre es obligatorio
+      </div>
+      <div style="color:red" *ngIf="loginForm.get('nombre')?.hasError('minlength')">
+        *nombre debe tener mínimo 4 caracteres
+      </div>
+    </div>
+
+
+    <ion-item>
+      <ion-label position="floating">contraseña</ion-label>
+      <ion-input type="contrasena" formControlName="contrasena"></ion-input>
+    </ion-item>
+
+    <div *ngIf="loginForm.get('contrasena')?.invalid && (loginForm.get('contrasena')?.dirty || loginForm.get('contrasena')?.touched)">
+      <div style="color:red" *ngIf="loginForm.get('contrasena')?.hasError('required')">
+        *contrasena es obligatoria
+      </div>
+      <div style="color:red" *ngIf="loginForm.get('contrasena')?.hasError('minlength')">
+        *contrasena debe tener mínimo 4 caracteres
+      </div>
+    </div>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button type="submit" [disabled]="!loginForm.valid">login</ion-button>
+      </ion-col>
+    </ion-row> 
+  </form>
+</ion-content>

@@ -1,0 +1,139 @@
+{
+  "asistencias": [
+    {
+      "nombre": "JUAN",
+      "apellido": "MEDINA",
+      "rut": "23232323232",
+      "seccion": "",
+      "id": 1
+    },
+    {
+      "nombre": "darien",
+      "apellido": "Cerna",
+      "rut": "21.55.4172-k",
+      "seccion": "",
+      "id": 2
+    },
+    {
+      "nombre": "Darien",
+      "apellido": "asdas",
+      "rut": 21312312321,
+      "seccion": "023D",
+      "id": 3
+    },
+    {
+      "nombre": "bruno",
+      "apellido": "rodriguez",
+      "rut": 215980570,
+      "seccion": "023d",
+      "id": 4
+    },
+    {
+      "username": "bruno",
+      "password": "rodriguez",
+      "rut": 215980570,
+      "seccion": "023d",
+      "id": 4
+    },
+    {
+      "nombre": "juana",
+      "apellido": "maria",
+      "rut": 21321321,
+      "seccion": "ds2d",
+      "id": 5
+    },
+    {
+      "nombre": "aaa",
+      "apellido": "aaa",
+      "rut": 231412421312,
+      "seccion": "dasd",
+      "id": 6
+    },
+    {
+      "nombre": "darien",
+      "contrasena": "cerna",
+      "rut": 21312312,
+      "isactive": false,
+      "id": 7
+    },
+    {
+      "nombre": "juan",
+      "contrasena": "medina",
+      "rut": 1321312321,
+      "isactive": false,
+      "id": 8
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "cachupin",
+      "password": "duoc",
+      "role": "usuario",
+      "isactive": true
+    },
+    {
+      "nombre": "21312",
+      "contrasena": "asd123",
+      "rut": 123213,
+      "isactive": false,
+      "id": 2
+    },
+    {
+      "nombre": "juan",
+      "contrasena": "medina",
+      "rut": 12323,
+      "isactive": false,
+      "id": 3
+    },
+    {
+      "nombre": "asdsa",
+      "contrasena": "d123asd",
+      "rut": "",
+      "isactive": false,
+      "id": 4
+    },
+    {
+      "nombre": "daniel",
+      "contrasena": "cerca",
+      "rut": 12321321,
+      "isactive": false,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "nombre": "123",
+      "contrasena": "123",
+      "rut": 123,
+      "isactive": false
+    },
+    {
+      "id": 7,
+      "nombre": "felipe",
+      "contrasena": "felipe",
+      "rut": 123,
+      "isactive": false
+    },
+    {
+      "id": 8,
+      "nombre": "aron",
+      "contrasena": "1234",
+      "rut": 12312312321,
+      "isactive": true
+    },
+    {
+      "id": 9,
+      "nombre": "estesi",
+      "contrasena": "1234",
+      "rut": 123123,
+      "isactive": true
+    },
+    {
+      "id": 10,
+      "nombre": "juan",
+      "contrasena": "1234",
+      "rut": 23123,
+      "isactive": true
+    }
+  ]
+}
