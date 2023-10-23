@@ -67,7 +67,7 @@
   "usuarios": [
     {
       "id": 1,
-      "username": "cachupin",
+      "username": "darien",
       "password": "duoc",
       "role": "usuario",
       "isactive": true
